@@ -28,7 +28,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t ${{ secrets.DOCKER_USERNAME }}/tp3-docker-pipeline
+        docker build -t ${{ secrets.DOCKER_USERNAME }}/tp3-docker-pipeline .
 
     - name: Login to DockerHub
       uses: docker/login-action@v2
