@@ -38,4 +38,4 @@ jobs:
 
     - name: Push image
       run: |
-        docker push ${{ secrets.DOCKER_USERNAME }}/tp3-docker
+        docker push ${{ secrets.DOCKER_USERNAME }}/tp3-docker-pipeline
